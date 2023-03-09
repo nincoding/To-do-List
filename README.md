@@ -5,5 +5,5 @@
 
 ```
 npx create-react-app todo
-npm install react-redux @reduxjs/toolkit react-icons styled-components
+npm install react-redux @reduxjs/toolkit react-icons react-router-dom styled-components 
 ```
