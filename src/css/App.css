@@ -1,1 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  padding: 20px;
+  font-family: 'Yeon Sung', cursive;
+}
