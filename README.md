@@ -7,3 +7,7 @@
 npx create-react-app todo
 npm install react-redux @reduxjs/toolkit react-icons react-router-dom styled-components 
 ```
+
+### 기능
+
+- 페이지 라우팅 적용

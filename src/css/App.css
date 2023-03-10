@@ -1,10 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
+@import url('https://webfontworld.github.io/goodchoice/Jalnan.css');
 
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Jalnan';
+}
+
+@media (min-width: 650px) {
+  .App {
+    width: 640px;
+  }
+}
+
+@media (max-width: 650px) {
+  .App {
+    width: 90vw;
+  }
+}
+
+#root {
+  background-color: white;
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
 .App {
-  padding: 20px;
-  font-family: 'Yeon Sung', cursive;
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* MyButton */
+
+.MyButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+  font-family: 'Jalnan';
+}
+
+.MyButton_default {
+  background-color: #ececec;
+  color: black;
+}
+
+.MyButton_positive {
+  background-color: #64c964;
+  color: white;
+}
+
+.MyButton_negative {
+  background-color: #fd565f;
+  color: white;
+}
+
+header {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+header > div {
+  display: flex;
+}
+
+header .head_text {
+  width: 30%;
+  font-size: 25px;
+  justify-content: center;
+}
+
+header .head_text_left {
+  width: 40%;
+  justify-content: start;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 22px;
+  color: #FF5A5A;
+}
+
+header .head_btn_rigth {
+  width: 25%;
+  justify-content: end;
+}
+header .head_text_top {
+  position: absolute;
+  margin-left: 20px;
+  top:20px;
+  color: #858585;
 }
