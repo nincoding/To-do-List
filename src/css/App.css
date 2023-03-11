@@ -12,6 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Jalnan';
+  flex-direction: column;
 }
 
 @media (min-width: 650px) {
@@ -35,6 +36,11 @@ body {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 /* MyButton */
@@ -102,3 +108,4 @@ header .head_text_top {
   top:20px;
   color: #858585;
 }
+
