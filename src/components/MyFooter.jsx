@@ -7,7 +7,7 @@ const Footer = styled.div`
   background-color: black;
   border-top: 1px solid #e2e2e2;
 `
-
+ 
 const MyFooter = () => {
   return (
     <Footer>
